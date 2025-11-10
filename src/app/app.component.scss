@@ -1,0 +1,19 @@
+:host {
+  display: block;
+  /* reserva espaço para o footer global */
+  padding-bottom: 72px;
+}
+
+ion-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/* aumenta a separação interna do footer */
+ion-footer ion-toolbar {
+  --padding-start: 8px;
+  --padding-end: 8px;
+}
