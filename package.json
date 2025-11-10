@@ -4,9 +4,9 @@
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
-  "ng": "ng",
-  "start": "ionic serve",
-  "build": "ionic build --prod",
+    "ng": "ng",
+    "start": "ionic serve",
+    "build": "ionic build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
@@ -27,11 +27,11 @@
     "@capacitor/keyboard": "7.0.3",
     "@capacitor/status-bar": "7.0.3",
     "@ionic/angular": "^8.0.0",
+    "firebase": "^9.22.0",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.15.0",
-    "firebase": "^9.22.0"
+    "zone.js": "~0.15.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^20.0.0",
