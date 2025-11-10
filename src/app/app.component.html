@@ -1,3 +1,25 @@
 <ion-app>
   <ion-router-outlet></ion-router-outlet>
+
+  <!-- Barra de navegação global no footer -->
+  <ion-footer>
+    <ion-toolbar>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-button color="primary" expand="block" routerLink="/listar-contatos" fill="clear">
+              <ion-icon slot="start" name="list-outline"></ion-icon>
+              Listar
+            </ion-button>
+          </ion-col>
+          <ion-col>
+            <ion-button color="primary" expand="block" routerLink="/adicionar-contato" fill="clear">
+              <ion-icon slot="start" name="add-circle-outline"></ion-icon>
+              Adicionar
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-toolbar>
+  </ion-footer>
 </ion-app>
