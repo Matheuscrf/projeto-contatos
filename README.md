@@ -51,7 +51,7 @@ Observações e evidências
 
 - Commits: os commits devem estar presentes no histórico Git (ver `git log`).
 - Consumo da API: a página `Listar Contatos` consome `https://jsonplaceholder.typicode.com/users`.
-- Integração com Firebase: `src/app/services/firebase.service.ts` contém funções para adicionar e listar contatos (substitua as chaves config).
+- Integração com Firebase: `src/app/services/firebase.service.ts` contém funções para adicionar e listar contatos.
 - Build: após `npm run build` a pasta `www/` será gerada com a versão de produção.
 
 Como subir para o GitHub
@@ -65,5 +65,3 @@ git remote add origin <URL_DO_REPO>
 git branch -M main
 git push -u origin main
 ```
-
-Se quiser, me passe a URL do repo e eu adiciono o remote e faço o push final por você (não posso criar repo no seu GitHub sem acesso).
