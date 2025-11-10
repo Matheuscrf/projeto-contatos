@@ -2,18 +2,15 @@ import { Injectable } from '@angular/core';
 import { initializeApp, FirebaseApp, getApps } from 'firebase/app';
 import { getDatabase, ref, push, get, child } from 'firebase/database';
 
-/**
- * ATENÇÃO: Substitua o objeto `firebaseConfig` pelas chaves do seu projeto
- * copiadas do console do Firebase.
- */
 const firebaseConfig = {
-  apiKey: '<YOUR_API_KEY>',
-  authDomain: '<YOUR_AUTH_DOMAIN>',
-  databaseURL: '<YOUR_DATABASE_URL>',
-  projectId: '<YOUR_PROJECT_ID>',
-  storageBucket: '<YOUR_STORAGE_BUCKET>',
-  messagingSenderId: '<YOUR_MESSAGING_SENDER_ID>',
-  appId: '<YOUR_APP_ID>',
+  apiKey: 'AIzaSyBZEvjox9iFRUsS5PdzWk3d5jtlBS3va5E',
+  authDomain: 'projeto-contatos-b3cad.firebaseapp.com',
+  databaseURL: 'https://projeto-contatos-b3cad-default-rtdb.firebaseio.com',
+  projectId: 'projeto-contatos-b3cad',
+  storageBucket: 'projeto-contatos-b3cad.firebasestorage.app',
+  messagingSenderId: '959262949889',
+  appId: '1:959262949889:web:107e9c761e7558700b3600',
+  measurementId: 'G-E9EDKXWR3K',
 };
 
 @Injectable({ providedIn: 'root' })
